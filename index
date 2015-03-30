@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Panacambios S.A.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random', //Specify sets like: 'fold,fade,sliceDown'
+		slices:10,
+		animSpeed:500,
+		pauseTime:5000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:true, //Next & Prev
+		directionNavHide:true, //Only show on hover
+		controlNav:true, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		controlNavThumbsFromRel:false, //Use image rel for thumbs
+		controlNavThumbsSearch: '.gif', //Replace this with...
+		controlNavThumbsReplace: '_thumb.gif', //...this in thumb Image src
+		keyboardNav: true, //Use left & right arrows
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.7 //Universal caption opacity
+	});
+});
+</script>
+<!--[if lt IE 8]
+<style type="text/css" media="screen">.nivo-controlNav a{float:left;}</style>
+[endif]-->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="index.html">Panacambios S.A.</a></h1>
+    </div>
+    <br class="clear" />
+  </div>
+</div> 
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="pages/Acerca-de.html">Acerca de Panacambios</a></li>
+        <li><a href="#">Servicios</a>
+          <ul>
+            <li><a href="#">Billetes de Diversos Paises</a></li>
+            <li><a href="#">Venta de Monedas</a></li>
+            <li><a href="#">Venta de Estampillas</a></li>
+          </ul>
+        </li>
+        <li class="last"><a href="Encuentranos.html">Encuentranos</a></li>
+      </ul>
+    </div>
+    <div id="search">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Site Search</legend>
+          <input stype="text" value="Search Our Website&hellip;"  onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+          <input type="submit" name="go" id="go" value="Search"/>
+        </fieldset>
+      </form>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="featured_slide">
+    <div id="slider" class="nivoSlider">
+      <img src="images/USA-100.jpg" alt="" />
+      <img src="images/PTY-1.jpg" alt="" />
+      <img src="images/Switzerland-1000.jpg" alt="" />
+      <img src="images/Euro-500.jpg" alt="" />
+      <img src="images/Santa-1.jpg" alt="" />
+    </div>
+  </div>
+  <div id="featured_intro">
+    <div>
+        <p>Bienvenido a nuestro portal! Panacambios es una empresa 100% panamena desde 1990, dedicada al cambio de moneda extranjera. Nuestros 25 anos de experiencia nos posicionan con la mayor ventaja para proveerle con las tasas de cambio mas competitivas del mercado a nivel nacional.</p>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="latest">
+    <ul>
+      <li>
+        <h2>Billetes de Diversos Paises</h2>
+        <p class="imgholder"><img src="images/Billetes-Diversos.jpg" alt="" /></p>
+        <p>Haga click aqui para explorar los diferentes paises de los cuales negociamos divisas. <a href="#"> Servicios &raquo;</a></p>
+      </li>
+      <li>
+        <h2><em>Venta</em> de Monedas</h2>
+        <p class="imgholder"><img src="images/Monedas-Oro.jpg" alt="" /></p>
+        <p>Contamos con diversas de monedas (oro y plata) principalmente de Estados Unidos y Panama, ideales para coleccion o de obsequio en ocasiones especiales. <a href="#">Servicios &raquo;</a></p>
+      </li>
+      <li class="last">
+        <h2><em>Venta</em> de Estampillas</h2>
+        <p class="imgholder"><img src="images/Filatelia.jpg" alt="" /></p>
+        <p>Nuestra coleccion de estampillas es la mas amplia, pudiendo abarcar la gran mayoria de los paises en todos los continentes. De ser usted un aficionado, no se lo puede perder! <a href="#">Servicios &raquo;</a></p>
+      </li>
+    </ul>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="footer">
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <p>Elitpha sellus enim rutrum orna ac met quis risus sus sed metus. Ipsumm aecenas sempor tincidunt feugiat tur aenec a integet rhoncus eger et. Semnisse fauctor in ut convalli citudin vivamus curabitur tinci dunt nam vestique pretium.</p>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li><a href="#">Phasellus tempor vestibulum</a></li>
+        <li><a href="#">Vestibulum quis augu mauris</a></li>
+        <li class="last"><a href="#">Suspendisse in neque</a></li>
+      </ul>
+    </div>
+    <div class="footbox last">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li><a href="#">Phasellus tempor vestibulum</a></li>
+        <li><a href="#">Vestibulum quis augu mauris</a></li>
+        <li class="last"><a href="#">Suspendisse in neque</a></li>
+      </ul>
+    </div>
+    <div class="thumbbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+        <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+        <li class="last"><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+        <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+        <li><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+        <li class="last"><a href="#"><img src="images/demo/80x80.gif" alt="" /></a></li>
+      </ul>
+      <br class="clear" />
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col6">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="#"> Domain Name</a></p>
+    <br class="clear" />
+  </div>
+</div>
+</body>
+</html>
